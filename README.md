@@ -3,7 +3,6 @@
 	<br>
 	<br>
 	<br>
-
 	Send me a <a href="https://feedback.abranhe.com"> feedback</a>!
 </p>
 
@@ -18,7 +17,7 @@
 
 # Overview
 
-Feedback is welcome, so let's hear it! I created this simple **CLI** with the objective of get people opinions from the command line interface. **Feedbacks** are always good, so I glad to know everyone's opinions.
+Feedback is welcome, so let's hear it! I created this simple **CLI** with the objective of get people opinions from the command line interface. **Feedbacks** are always good, so I am glad to know everyone's opinions.
 
 You can also do it online at [feedback.abranhe.com](https://feedback.abranhe.com)
 
