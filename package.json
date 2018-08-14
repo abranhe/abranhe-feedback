@@ -1,0 +1,48 @@
+{
+  "name": "@abranhe/feedback",
+  "version": "1.0.0",
+  "description": "Y'all can give me a feedback @abranhe",
+  "main": "index.js",
+  "scripts": {
+    "test": "ci-success"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abranhe/abranhe-feedback.git"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+	"bin": {
+    "abranhe-feedback": "cli.js"
+  },
+  "keywords": [
+    "feedback",
+    "abranhe-feedback",
+    "contact",
+    "contact-me",
+    "cli"
+  ],
+  "files": [
+    "cli.js"
+  ],
+  "author": {
+    "name": "Carlos Abraham",
+    "email": "abraham@abranhe.com",
+    "web": "abranhe.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abranhe/abranhe-feedback/issues"
+  },
+  "homepage": "https://github.com/abranhe/abranhe-feedback#readme",
+  "devDependencies": {
+    "ci-success": "^1.0.0"
+  },
+  "dependencies": {
+    "capitalize": "^1.0.0",
+    "meow": "^5.0.0",
+    "opn": "^5.3.0",
+    "username": "^3.0.0"
+  }
+}
