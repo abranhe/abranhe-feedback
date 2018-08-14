@@ -47,6 +47,12 @@ Example
 	$ abranhe-feedback -n "your name" -e "your@email.com" -p "a project" -m "Your feedback, I hope it'll be good" --submit
 ```
 
+# Try it! 
+
+```
+npx @abranhe/feedback -p abranhe-feedback -m "I liked this project" --submit
+```
+
 # Team
 
 |[![Carlos Abraham Logo](https://avatars3.githubusercontent.com/u/21347264?s=50&v=4)](https://abranhe.com)|
