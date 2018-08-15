@@ -1,19 +1,16 @@
 {
   "name": "@abranhe/feedback",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Y'all can give me a feedback @abranhe",
   "main": "index.js",
   "scripts": {
-    "test": "ci-success"
+    "test": "ava && ci-success travis --success"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/abranhe/abranhe-feedback.git"
   },
-  "engines": {
-    "node": ">=8.0.0"
-  },
-	"bin": {
+  "bin": {
     "abranhe-feedback": "cli.js"
   },
   "keywords": [
@@ -37,7 +34,8 @@
   },
   "homepage": "https://github.com/abranhe/abranhe-feedback#readme",
   "devDependencies": {
-    "ci-success": "^1.0.0"
+    "ci-success": "^2.0.0",
+    "ava": "1.0.0-beta.6"
   },
   "dependencies": {
     "capitalize": "^1.0.0",

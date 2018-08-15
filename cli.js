@@ -4,9 +4,7 @@ const meow = require('meow');
 const username = require('username');
 const open = require('opn');
 const capitalize = require('capitalize');
-
-const feedbackURL = 'https://feedback.abranhe.com/?';
-const defaultMessage = 'I (do/don\'t) like this 😒 because ...';
+const feedback = require('./index.js');
 
 const cli = meow(`
 	Usage
@@ -53,34 +51,30 @@ const cli = meow(`
 	}
 });
 
-let url = [];
-
 username().then(username => {
   if(cli.flags.project) {
-    url.push('project=' + cli.flags.project);
+		feedback.project(cli.flags.project);
   }
 
   if(cli.flags.email) {
-    url.push('email=' + cli.flags.email);
+		feedback.email(cli.flags.email);
   }
 
   if(cli.flags.message) {
-    url.push('message=' + cli.flags.message);
+		feedback.message(cli.flags.message);
   } else {
-    url.push('message=' + defaultMessage);
+		feedback.message(feedback.defaultMessage);
   }
 
   if(cli.flags.name) {
-    url.push('name=' + cli.flags.name);
+		feedback.name(cli.flags.name);
   } else {
-    url.push('name=' + capitalize(username));
+		feedback.name(capitalize(username));
   }
 
   if(cli.flags.submit) {
-    url.push('submit');
+    feedback.submit();
   }
 
-  let parameters = url.join('&');
-  open(feedbackURL + parameters);
-  process.exit();
+	feedback.web();
 });

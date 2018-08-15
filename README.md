@@ -12,6 +12,7 @@
 	<a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
 	<a href="https://cash.me/$abranhe"><img src="https://cdn.abraham.gq/badges/cash-me.svg"></a>
 	<a href="https://www.patreon.com/abranhe"><img src="https://cdn.abraham.gq/badges/patreon.svg" /></a>
+	<a href="https://paypal.me/abranhe/10"><img src="https://cdn.abraham.gq/badges/paypal.svg" /></a>
 </p>
 
 
@@ -21,7 +22,7 @@ Feedback is welcome, so let's hear it! I created this simple **CLI** with the ob
 
 You can also do it online at [feedback.abranhe.com](https://feedback.abranhe.com)
 
-# Usage
+# Install
 
 ```
 npx @abranhe/feedback
@@ -47,10 +48,22 @@ Example
 	$ abranhe-feedback -n "your name" -e "your@email.com" -p "a project" -m "Your feedback, I hope it'll be good" --submit
 ```
 
-# Try it! 
+# Try it!
 
 ```
 npx @abranhe/feedback -p abranhe-feedback -m "I liked this project" --submit
+```
+
+![Give it a shot!](https://cdn.abraham.gq/projects/abranhe-feedback/give-it-a-shot.gif)
+
+# Usage
+
+```js
+const feedback = require('@abranhe/feedback');
+
+feedback.project('Project Name');
+console.log(feedback.getLink());
+// => https://feedback.abranhe.com/?project="Project Name"
 ```
 
 # Team
