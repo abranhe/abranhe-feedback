@@ -30,6 +30,10 @@ const description = summary => {
 	saveData('description=' + summary);
 }
 
+const link = link => {
+	saveData('url=' + link);
+}
+
 const submit = () => {
 	saveData('submit');
 }
@@ -51,6 +55,7 @@ module.exports = {
 	email,
 	message,
 	description,
+	link,
 	submit,
 	web,
 	getLink,

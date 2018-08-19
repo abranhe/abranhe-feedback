@@ -1,6 +1,6 @@
 {
   "name": "@abranhe/feedback",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Y'all can give me a feedback @abranhe",
   "main": "index.js",
   "scripts": {
