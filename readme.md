@@ -1,5 +1,5 @@
 <p align="center" id="top">
-	<a href="https://www.npmjs.com/package/@abranhe/feedback"><img src="https://cdn.abraham.gq/abraham/abraham.svg" width="100"></a>
+	<a href="https://www.npmjs.com/package/@abranhe/feedback"><img src="https://cdn.abranhe.com/abraham/abraham.svg" width="100"></a>
 	<br>
 	<br>
 	<br>
@@ -8,27 +8,33 @@
 
 <p align="center">
 	<a href="https://travis-ci.org/abranhe/abranhe-feedback"><img src="https://img.shields.io/travis/abranhe/abranhe-feedback.svg?logo=travis" /></a>
-	<a href="https://github.com/abranhe/abranhe-feedback/blob/master/LICENSE"><img src="https://img.shields.io/github/license/abranhe/abranhe-feedback.svg" /></a>
+	<a href="https://github.com/abranhe/abranhe-feedback/blob/master/license"><img src="https://img.shields.io/github/license/abranhe/abranhe-feedback.svg" /></a>
 	<a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
-	<a href="https://cash.me/$abranhe"><img src="https://cdn.abraham.gq/badges/cash-me.svg"></a>
-	<a href="https://www.patreon.com/abranhe"><img src="https://cdn.abraham.gq/badges/patreon.svg" /></a>
-	<a href="https://paypal.me/abranhe/10"><img src="https://cdn.abraham.gq/badges/paypal.svg" /></a>
+	<a href="https://cash.me/$abranhe"><img src="https://cdn.abranhe.com/badges/cash-me.svg"></a>
+	<a href="https://www.patreon.com/abranhe"><img src="https://cdn.abranhe.com/badges/patreon.svg" /></a>
+	<a href="https://paypal.me/abranhe/10"><img src="https://cdn.abranhe.com/badges/paypal.svg" /></a>
 </p>
 
 
-# Overview
+## Overview
 
 Feedback is welcome, so let's hear it! I created this simple **CLI** with the objective of get people opinions from the command line interface. **Feedbacks** are always good, so I am glad to know everyone's opinions.
 
 You can also do it online at [feedback.abranhe.com](https://feedback.abranhe.com)
 
-# Install
+## Install
 
 ```
-npx @abranhe/feedback
+npm install -g @abranhe/feedback
 ```
 
-# CLI
+or just
+
+```
+npx @abranhe/feedback -p abranhe-feedback -m "I liked this project" --submit
+```
+
+## CLI
 
 ```
 Usage
@@ -48,15 +54,11 @@ Example
 	$ abranhe-feedback -n "your name" -e "your@email.com" -p "a project" -m "Your feedback, I hope it'll be good" --submit
 ```
 
-# Try it!
+## *Give it a shot*
 
-```
-npx @abranhe/feedback -p abranhe-feedback -m "I liked this project" --submit
-```
+![Give it a shot!](https://cdn.abranhe.com/projects/abranhe-feedback/give-it-a-shot.gif)
 
-![Give it a shot!](https://cdn.abraham.gq/projects/abranhe-feedback/give-it-a-shot.gif)
-
-# Usage
+## Usage
 
 ```js
 const feedback = require('@abranhe/feedback');
@@ -66,12 +68,12 @@ console.log(feedback.getLink());
 // => https://feedback.abranhe.com/?project="Project Name"
 ```
 
-# Team
+## Team
 
 |[![Carlos Abraham Logo](https://avatars3.githubusercontent.com/u/21347264?s=50&v=4)](https://abranhe.com)|
 | :-: |
 | [Carlos Abraham](https://github.com/abranhe) |
 
-# License
+## License
 
 [MIT](https://github.com/abranhe/abranhe-feedback/blob/master/LICENSE) License © [Carlos Abraham](https://github.com/abranhe/)
