@@ -20,8 +20,9 @@ const cli = meow(`
                         feedback from the command line, otherwise you will
                         need to finish online.
 
-	Example
-		$ abranhe-feedback -n "your name" -e "your@email.com" -p "a project" -m "Your feedback, hope it will be good" --submit
+	Examples
+		$ abranhe-feedback -n "your name" -e "your@email.com"
+		$ abranhe-feedback -p "a project" -m "Your feedback" --submit
 `,{
 	flags: {
     submit: {
