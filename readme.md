@@ -37,21 +37,23 @@ npx @abranhe/feedback -p abranhe-feedback -m "I liked this project" --submit
 ## CLI
 
 ```
-Usage
-	$ abranhe-feedback <option>
+Y'all can give me a feedback @abranhe
 
-Options
-	-h, --help          Show this message and close
-	-n, --name          Set your name, default: your computer username
-	-p, --project       Project Name
-	-m, --message       Set message to send
-	-e, --email         Set your email to contact you back
-	-s, --submit        If you use (submit) you will automatically send the
-											feedback from the command line, otherwise you will
-											need to finish online.
+ Usage
+	 $ abranhe-feedback <option>
 
-Example
-	$ abranhe-feedback -n "your name" -e "your@email.com" -p "a project" -m "Your feedback, I hope it'll be good" --submit
+ Options
+		-h, --help          Show this message and close
+		-n, --name          Set your name, default: your computer username
+		-p, --project       Project Name
+		-m, --message       Set message to send
+		-e, --email         Set your email to contact you back
+		-s, --submit        If you use (submit) you will automatically send the
+		                    feedback from the command line, otherwise you will
+		                    need to finish online.
+ Examples
+	 $ abranhe-feedback -n "your name" -e "your@email.com"
+	 $ abranhe-feedback -p "a project" -m "Your feedback" --submit
 ```
 
 ## *Give it a shot*
